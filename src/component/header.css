@@ -1,0 +1,36 @@
+.cart{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  margin-left: 10px;
+  color: blue;
+  font-size: x-large;
+}
+.box{
+    position: relative;
+    font-weight: bold;
+    color: red;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 8px;
+    /* left: 40px; */
+}
+.singin{
+  font-size: xx-large;
+  margin-right: 30px;
+  border: 1px solid white;
+ border-radius: 5px;
+  background-color: aquamarine;
+}
+.login{
+  background-color: aquamarine;
+  font-size: xx-large;
+  border: 1px solid white;
+  border-radius: 5px;
+}
