@@ -14,7 +14,7 @@ function Header({ setInputState }) {
   return (
     <div className="header">
     <Link to="/">
-      <img className="image" src="/images/logo.png" alt="" />
+      <img className="image" src="/Images/logo.png" alt="" />
       </Link>
       <div className="search-bttn">
         <input type="text" placeholder="Search Your Product"  onChange={manageInput} />
