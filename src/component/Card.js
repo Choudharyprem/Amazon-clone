@@ -1,6 +1,7 @@
 import React from 'react'
 import './card.css';
 import data from '../cart'
+import htmling from '../images/star.png'
 export default function Card({inputState}) {
   // console.log(inputState.addToCart); 
   let filteredData =data.filter(ele=>ele.type.includes(inputState.inputState.toLowerCase()))
@@ -22,10 +23,10 @@ export default function Card({inputState}) {
         <div className='price'>{ele.price}</div>
         <div className='quantity'>{ele.quantity}</div>
         <div className="card--stats">
-                    <img src='/images/star.png'alt='' className="card--star"/>
-                    <img src='/images/star.png'alt='' className="card--star"/>
-                    <img src='/images/star.png'alt='' className="card--star"/>
-                    <img src='/images/star.png'alt='' className="card--star"/>
+                    <img src={htmling}alt='' className="card--star"/>
+                    <img src={htmling}alt='' className="card--star"/>
+                    <img src={htmling}alt='' className="card--star"/>
+                    <img src={htmling}alt='' className="card--star"/>
                     <span className='rating'>{ele.rating}</span>
                 </div>
                 <button className='bttn' onClick={()=>inputState.addToCart(ele)}>add to cart</button>
